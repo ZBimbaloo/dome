@@ -45,7 +45,9 @@
         };
         // 基础配置
         Mshare.init(config);
-
+        document.querySelector('.actionSheet').addEventListener('click', function () {
+            Mshare.popup(config);
+        });
 
         
     </script>
